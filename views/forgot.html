@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FestClub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60"></body>
+    <!-- login-->
+    <!-- top nav bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">FeStClUb</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="main.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../views/literary.html">Literary</a></li>
+            <li><a href="../views/cultural.html">Cultural</a></li>
+            <li><a href="../views/gaming.html">Gaming</a></li>
+              <li><a href="../views/artistic.html">Artistic</a></li>
+              <li><a href="../views/tech.html">Technical</a></li>
+              <li><a href="../views/quiz.html">Quiz UP</a></li>
+                       </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+    </div>
+  </div>
+</nav>
+
+    <!-- down nav bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">FeStClUb</a>
+    </div>
+     <ul class="nav navbar-nav navbar-right">
+     
+      <li><a href="tos.html">Terms of Service</a></li>
+      <li><a href="privacy.html">privacy Policy</a></li>
+      <li><a href="../views/">Join Us</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- jumbotron box-->
+    <div class="jumbotron" style="background-color:orange">
+  <h1 class="text-center">Forgot</h1>      
+</div>
+<!--Forgot Password-->
+<hr>
+<div class="container">
+ <div class="row">
+<div class="row">
+<div class="col-md-4 col-md-offset-4">
+<div class="panel panel-default">
+<div class="panel-body">
+<div class="text-center">
+<h3><i class="fa fa-lock fa-4x"></i></h3>
+<h2 class="text-center">Forgot Password?</h2>
+<p>You can reset your password here.</p>
+<div class="panel-body">
+<form class="form">
+<fieldset>
+<div class="form-group">
+<div class="input-group">
+<span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+<input id="emailInput" placeholder="email address" class="form-control" type="email" oninvalid="setCustomValidity('Please enter a valid email address!')" onchange="try{setCustomValidity('')}catch(e){}" required="">
+</div>
+</div>
+<div class="form-group">      
+<input class="btn btn-lg btn-primary btn-block" value="Send My Password" type="submit">
+</div>
+</fieldset>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</html>
